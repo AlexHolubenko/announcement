@@ -1,0 +1,8 @@
+.ann_cards {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    
+    margin: 0 auto;
+    padding: 10px;
+}

@@ -1,0 +1,20 @@
+.nav {
+    list-style-type: none;
+    display: flex;
+    background-color: var(--main-color);
+    margin-bottom: 20px;
+
+    li {
+        padding: 10px 25px;
+    }
+    li:hover {
+        background-color: var(--hover-color);
+        padding: 10px 25px;
+    }
+    a {
+        text-decoration: none;
+        font-size: 1rem;
+        text-transform: uppercase;
+        color: white;
+    }
+}

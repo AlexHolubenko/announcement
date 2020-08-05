@@ -1,0 +1,19 @@
+@import './_nav.scss';
+@import './_search-box';
+@import './_ann-cards.scss';
+@import './_ann-card.scss';
+@import './_buttons.scss';
+@import './_selected-ann.scss';
+@import './_forms.scss';
+
+* {
+    margin: 0;
+    padding: 0
+}
+:root {
+    --mr-btm: 20px;
+    --main-color: #1e847f;
+    --hover-color:#1f918b;
+    --btn-dark: #000000;
+
+}

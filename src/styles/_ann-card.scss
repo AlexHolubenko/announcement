@@ -1,0 +1,23 @@
+.ann_card {
+    width: 300px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    
+
+    .ann_card-title {
+        white-space: nowrap;
+        font-size: 1.5rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    button{
+        padding: 5px 10px;
+        text-transform: uppercase;
+        background-color: var(--main-color);
+        color: white;
+    }
+}

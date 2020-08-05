@@ -1,0 +1,30 @@
+.btn {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+        filter: brightness(1.2)
+    }
+    &--add, &--open, &--save {
+        width: 100%;
+        border-radius: 4px;
+    }
+    &--add, &--edit, &--open, &--save {
+        background-color: var(--main-color);
+        color: white;
+    }
+    &--edit {
+        border-radius: 4px 0 0 4px;
+    }
+    &--del {
+        background-color: var(--btn-dark);
+        color: white;
+        border-radius: 0 4px 4px 0;
+    }
+}
+
+
